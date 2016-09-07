@@ -295,6 +295,17 @@ function isOdd(n){
  * @return {object} restaurant
  */
 
+ function incrementReviews(restaurant){
+	if(restaurant.reviews === undefined){
+		restaurant.reviews = 1;
+		return restaurant;
+	}
+ 	else if(restaurant.reviews > 0){
+ 		restaurant.reviews += 1;
+ 		return restaurant;
+ 	}
+ }
+
 
 /**
  * Joins two strings with a space.
