@@ -329,3 +329,29 @@ function isOdd(n){
  * @return {object} circle
  */
 
+function createCircle(radius){
+
+	var circle = {circumference: null, area: null};
+	circle.circumference = 2 * Math.PI * radius;
+	circle.area = radius * radius * Math.PI;
+
+	return circle;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
