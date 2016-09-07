@@ -262,6 +262,30 @@ function isOdd(n){
  * @return {string} the score represented as a letter grade
  */
 
+ function letterGrade(score,total){
+ 	var gradeScore = score/total * 100;
+
+ 	if(gradeScore >= 90){
+ 		return 'A';
+ 	}
+ 	else if(gradeScore < 90 && gradeScore>= 80)
+ 	{
+ 		return 'B';
+ 	}
+ 	else if(gradeScore < 80 && gradeScore>=70)
+ 	{
+ 		return 'C';
+ 	}
+ 	else if (gradeScore < 70 && gradeScore>=60)
+ 	{
+ 		return 'D';
+ 	}
+ 	else
+ 	{
+ 		return 'F';
+ 	}
+ }
+
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
