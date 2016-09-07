@@ -222,6 +222,16 @@ function areEqual(a,b){
  * @return {boolean} the number is even
  */
 
+function isEven(n){
+	evenNumber = n % 2;
+	if(evenNumber){
+		return n;
+	}
+	else
+	{
+		return "Is not Even";
+	}
+}
 
 /**
  * Returns true if `n` is odd.
