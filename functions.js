@@ -29,7 +29,7 @@ return number+= 1;
 
  function decrease(number){
  	return number-= 1;
- 	
+
  }
 
 
@@ -39,6 +39,11 @@ return number+= 1;
  * @param {number} y
  * @return {number} the sum
  */
+
+ function add(x,y){
+
+ 	return x+y;
+ }
 
 
 /**
