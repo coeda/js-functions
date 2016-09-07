@@ -15,6 +15,11 @@ return number.toString();
  * @return {number}
  */
 
+ function increase(number){
+return number+= 1;
+
+ }
+
 
 /**
  * Subtracts one from a given number.
