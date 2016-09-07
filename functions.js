@@ -5,7 +5,7 @@
  */
 
 function numberToString(number){
-return ;
+return number.toString();
 }
 
 
