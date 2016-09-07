@@ -104,20 +104,38 @@ function square(x){
 
  function calculate(operation, x, y){
 
- 	if(operation === "add"){
- 		console.log(x + " + " + y + " = " + add(x,y));
+ 	// if(operation === "add"){
+ 	// 	console.log(x + " + " + y + " = " + add(x,y));
+ 	// 	return add(x,y);
+ 	// }else if(operation ==="subtract"){
+ 	// 	console.log(x + " - " + y + " = " + subtract(x,y));
+ 	// 	return subtract(x,y);
+ 	// }else if(operation ==="multiply"){
+ 	// 	console.log(x + " * " + y + " = " + multiply(x,y));
+ 	// 	return multiply(x,y);
+ 	// }else if(operation ==="divide"){
+ 	// 	console.log(x + " / " + y + " = " + divide(x,y));
+ 	// 	return divide(x,y);
+ 	// }
+
+ 	switch (operation) {
+ 		case "add":
+		console.log(x + " + " + y + " = " + add(x,y));
  		return add(x,y);
- 	}else if(operation ==="subtract"){
+
+ 		case "subtract":
  		console.log(x + " - " + y + " = " + subtract(x,y));
  		return subtract(x,y);
- 	}else if(operation ==="multiply"){
+
+ 		case "multiply":
  		console.log(x + " * " + y + " = " + multiply(x,y));
  		return multiply(x,y);
- 	}else if(operation ==="divide"){
+
+ 		case "divide":
  		console.log(x + " / " + y + " = " + divide(x,y));
  		return divide(x,y);
- 	}
 
+ 	}
 
  
  }
