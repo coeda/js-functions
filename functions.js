@@ -240,8 +240,8 @@ function isEven(n){
  */
 
 function isOdd(n){
-	evenNumber = n % 2;
-	if(evenNumber){
+	oddNumber = n % 2;
+	if(oddNumber){
 		return "Is not Odd";
 	}
 	else
