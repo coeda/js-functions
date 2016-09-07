@@ -239,6 +239,16 @@ function isEven(n){
  * @return {boolean} the number is odd
  */
 
+function isOdd(n){
+	evenNumber = n % 2;
+	if(evenNumber){
+		return "Is not Odd";
+	}
+	else
+	{
+		return n;
+	}
+}
 
 /**
  * Returns a letter grade.
